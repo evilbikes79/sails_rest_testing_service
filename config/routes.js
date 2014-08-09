@@ -24,6 +24,70 @@ module.exports.routes = {
     'get /insight/assessment': {
         controller    : 'assessment',
         action        : 'show'
+    },
+    'get /insight/actors': {
+        controller    : 'actor',
+        action        : 'index'
+    },
+    'get /insight/actor': {
+        controller    : 'actor',
+        action        : 'show'
+    },
+    'get /insight/students': {
+        controller    : 'actor',
+        action        : 'index'
+    },
+    'get /insight/student': {
+        controller    : 'actor',
+        action        : 'show'
+    },
+    'get /insight/instructor': {
+        controller    : 'actor',
+        action        : 'index'
+    },
+    'get /insight/instructor': {
+        controller    : 'actor',
+        action        : 'show'
+    },
+    'get /insight/classes': {
+        controller    : 'class',
+        action        : 'index'
+    },
+    'get /insight/class': {
+        controller    : 'class',
+        action        : 'show'
+    },
+    'get /insight/courses': {
+        controller    : 'course',
+        action        : 'index'
+    },
+    'get /insight/course': {
+        controller    : 'course',
+        action        : 'show'
+    },
+    'get /insight/sections': {
+        controller    : 'section',
+        action        : 'index'
+    },
+    'get /insight/section': {
+        controller    : 'section',
+        action        : 'show'
+    },
+    'get /insight/outcomes': {
+        controller    : 'outcome',
+        action        : 'index'
+    },
+    'get /insight/outcome': {
+        controller    : 'outcome',
+        action        : 'show'
+    },
+    'get /insight/learning_objectives': {
+        controller    : 'outcome',
+        action        : 'index'
+    },
+    'get /insight/learning_objective': {
+        controller    : 'outcome',
+        action        : 'show'
     }
 
 };

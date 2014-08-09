@@ -25,7 +25,6 @@ module.exports = {
      filePath:'./rest_testing_service.log',
      timestamp: true,
      colorize: false
-
   }
 
 };
