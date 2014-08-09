@@ -1,0 +1,48 @@
+{
+  "name": "sails_rest_testing_service",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A REST service for collecting JSON-LD based learning objects",
+  "dependencies": {
+    "when": "3.2.3",
+    "node-uuid": "1.4.1",
+    "sails": "~0.9.16",
+    "grunt": "0.4.5",
+    "sails-disk": "0.9.3",
+    "ejs": "1.0.0",
+    "optimist": "0.6.1",
+    "sails-mongo": "0.9.8",
+    "mongodb": "1.4.6",
+    "retry": "0.6.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-yuidoc": "0.5.2",
+    "grunt-mocha": "0.4.11",
+    "grunt-mocha-test": "0.11.0",
+    "chai": "1.9.1",
+    "mocha": "1.20.1",
+    "sinon": "1.10.2",
+    "grunt-debug-task": "0.1.4",
+    "node-mocks-http": "1.0.4",
+    "sails": "0.9.16"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js",
+    "test": "grunt test"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evilbikes79/sails_rest_testing_service"
+  },
+  "author": {
+    "name": "Alex Bromley",
+    "e-mail": "alexander.bromley@mheducation.com"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}
