@@ -13,7 +13,6 @@ module.exports = {
      return_fixture["instructor"] = {id:"EXT_ID", name:"Mrs. Jean Doe", type:"instructor"};
      return_fixture["enrollmentStartDate"] = null;
      return_fixture["enrollmentEndDate"] = null;
-}
 
     // Send a JSON responses
     return res.json(
