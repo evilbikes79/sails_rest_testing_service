@@ -24,8 +24,6 @@ module.exports = {
   show: function (req, res) {
     var reqPayload = req.body;
 
-     utils.httpForward(reqPayload);
-
      var return_fixture = {}
      return_fixture["id"] = "EXT_ID";
      return_fixture["name"] = "Chapter 1 Quiz";
