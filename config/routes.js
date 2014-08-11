@@ -50,11 +50,11 @@ module.exports.routes = {
         action        : 'show'
     },
     'get /insight/classes': {
-        controller    : 'class',
+        controller    : 'course',
         action        : 'index'
     },
     'get /insight/class': {
-        controller    : 'class',
+        controller    : 'course',
         action        : 'show'
     },
     'get /insight/courses': {
