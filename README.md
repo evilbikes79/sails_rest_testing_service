@@ -12,7 +12,7 @@ The "glue code" libraries being used:
 * [Sails JS](http://sailsjs.org/) for javascript web application structuring and API supporting.
 * [Grunt](http://www.gruntjs.com/) for server and client JS building and tasking.
 * [YUIDoc](http://yui.github.io/yuidoc/) for JS documenting.
-* [Mocha](http://visionmedia.github.io/mocha/) for JS unit testing.
+* [Mocha](http://mochajs.org/) for JS unit testing.
 * [Chai](http://chaijs.com/) for unit test asserting.
 * [When JS](https://github.com/cujojs/when) A solid, fast Promises/A+ implementation and other asyncing.
 * [Waterline](https://github.com/balderdashy/waterline) for validation, casting and object persisting.
@@ -47,7 +47,7 @@ Note: Linux/Unix/Mac OS users will have prefix all `npm install` commands with `
 There are a number of [Grunt](http://www.gruntjs.com/) based targets that are used for running different build tasks:
 
 * `grunt build`: Build accessible stand alone version.
-* `grunt test`: Run all js [Mocha](http://visionmedia.github.io/mocha/) unit tests headless in [PhantomJS](http://phantomjs.org/).
+* `grunt test`: Run all js [Mocha](http://mochajs.org/) unit tests headless in [PhantomJS](http://phantomjs.org/).
 * `grunt yuidoc`: Generate code documentation.
 
 To get a list of all available grunt targets run
