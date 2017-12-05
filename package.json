@@ -4,17 +4,17 @@
   "version": "0.0.0",
   "description": "A REST service for collecting JSON-LD based learning objects",
   "dependencies": {
-    "when": "3.2.3",
-    "node-uuid": "1.4.1",
-    "sails": "~0.9.16",
+    "ejs": "^1.0.0",
     "grunt": "0.4.5",
-    "sails-disk": "0.9.3",
-    "ejs": "1.0.0",
-    "optimist": "0.6.1",
-    "sails-mongo": "0.9.8",
     "mongodb": "1.4.6",
+    "node-uuid": "1.4.1",
+    "optimist": "0.6.1",
+    "redis": "~0.11.0",
     "retry": "0.6.1",
-    "redis": "~0.11.0"
+    "sails": "~0.9.16",
+    "sails-disk": "0.9.3",
+    "sails-mongo": "0.9.8",
+    "when": "3.2.3"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "0.10.0",
